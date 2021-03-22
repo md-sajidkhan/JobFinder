@@ -1,0 +1,18 @@
+﻿{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="Arithmetic" method="post">
+{% csrf_token %}
+    Enter Number 1 : <input type="text" name="num1" /><br />
+    Enter Number 2 : <input type="text" name="num2" /><br />
+    <button type="submit">Add</button>
+    <button type="submit">Sub</button>
+    <button type="submit">Mul</button>
+    <button type="submit">Div</button>
+
+</form>
+
+
+
+{% endblock %}

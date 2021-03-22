@@ -1,0 +1,68 @@
+﻿
+
+body
+{
+    background-color : maroon;
+    font-family: sans-serif;
+}
+.title
+{
+    color:white;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.title a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.title h1
+{
+   
+}
+.search
+{
+    display: flex;
+    padding-left: 20%;
+}
+
+.keyword{
+    float: left;
+    resize:both;
+}
+
+.keyword input
+{
+    height: 50px;
+    width: 350px;
+}
+.location {
+    float: left;
+    resize: both;
+}
+.location input {
+        height: 50px;
+        width: 350px;
+}
+
+.search-icon {
+    float: left;
+    resize: both;
+}
+.search-icon button {
+    height: 50px;
+    width: 100px;
+}
+
+.adzuna-table {
+    color: white;
+    text-align: center;
+}
+
+.adzuna-table a {
+    text-decoration: none;
+    color: inherit;
+}
+

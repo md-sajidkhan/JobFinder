@@ -1,0 +1,33 @@
+﻿{% extends 'base.html' %}
+
+
+
+{% block content %}
+<div class="container">
+    <div class="title">
+
+        <h1><a href="/jobfinder">JobFinder</a></h1>
+        <p>A Quick Job Search in some of the <strong>India's</strong> largest search platforms</p>
+    </div>
+    <div class="search">
+        <form action="result" method="post">
+            {% csrf_token %}
+
+            <div class="keyword">
+                <input type="search" name="keyword_input" placeholder="Keyword" />
+            </div>
+            <div class="location">
+                <input type="search" name="location_input" placeholder="Location" />
+            </div>
+            <div class="search-icon">
+                <button type="submit" id="submit">Search</button>
+            </div>
+        </form>
+    </div>
+    
+
+
+</div>
+
+
+{% endblock %}
